@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+:root {
+    --main-bg-color: #532323;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 8vw;
+    padding: 0vw 1vw;
+}
+
+ul{
+    height: 6vh;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0vw 1vw;
+    list-style: none;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+}
+
+nav ul li a:hover{
+    
+    font-weight: bolder;
+}
+
+.search input{
+    height: 3vh;
+    width: 30vw;
+    margin: 0vh 0.5vw 0vw 2vw;
+}
+.search button{
+    font-family: 'Lora', serif;
+}
+
+.container{
+    min-height: 88vh ;
+}
+.slider{
+    width: 60vw;
+    margin: 3vh auto;
+}
+
+.card{
+    /* background-color: blue; */
+    max-width: 85vw;
+    margin: 40px auto;
+
+}
+.cards{
+    display: flex;
+    overflow: hidden;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 7px;
+}
+footer{
+    height: 6vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lora', serif;
+}
